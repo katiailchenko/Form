@@ -1,0 +1,64 @@
+body {
+	background-color: #fff;
+	font-family: "Times New Roman", sans-serif;
+}
+form {
+	width: 50%;
+	margin: 0 auto;
+}
+fieldset {
+	margin-bottom: 20px;
+	border-color: #1B6E1C;
+
+}
+div {
+	margin-bottom: 10px;
+}
+legend {
+	font-size: 23px;
+	font-weight: 700;
+	color: #1B6E1C;
+}
+label, p {
+	font-size: 20px;
+}
+label {
+	cursor: pointer;
+}
+input, textarea, select {
+	font-family: inherit;
+	font-size: 	20px;
+	outline-color: #1B6E1C;
+}
+::placeholder {
+	font-size: 20px;
+}
+button {
+	font-size: 23px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #28A428;
+	box-sizing: border-box;
+	padding: 7px 25px;
+	cursor: pointer;
+}
+button[type="submit"] {
+	transition: background-color .5s;
+	border: 1px solid #28A428;
+}
+button[type="reset"] {
+	color: #000;
+	background-color: transparent;
+	border: 1px solid #000;
+	transition: border-color .5s;
+}
+button[type="submit"]:hover {
+	background-color: #1B6E1C;
+}
+button[type="reset"]:hover {
+	border-color: red;
+}
+
+
+
+
