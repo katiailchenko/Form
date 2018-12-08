@@ -12,7 +12,7 @@
 			<legend>Personal Information</legend>
 			<div>
 				<label for="user-surname">Surname:</label>
-				<input type="text" id="user-surname" name="surname" required="required"> 
+				<input type="text" id="user-surname" name="surname" required="required" autofocus="autofocus"> 
 			</div>
 
 			<div>
@@ -47,16 +47,14 @@
 			</div>
 			<div>
 				<label for="password">Password:</label>
-				<input type="password" id="password" name="password"/>
+				<input type="password" id="password" name="password" minlength="5" autocomplete="off"/>
 			</div>
 		</fieldset>
 
 
 		<fieldset>
 			<legend>An intresting fact about you!</legend>
-			<div>
 				<p>Do you love cats?</p>
-			</div>
 			<div>
 				<label>
 					<input type="radio" name="love-cats" value="Yes" />Yes
@@ -80,7 +78,7 @@
 				<input type="time" id="time" name="sleep-time"/>
 			</div>
 			<div>
-				<label for="cars">What your favorite brand of cars?</label>
+				<p>What your favorite brand of cars?</p>
 			</div>
 			<div>
 				<select name="cars" multiple="">
@@ -90,7 +88,7 @@
 				</select>
 			</div>
 			<div>
-				<label for "range">How do you rate our work?</label>
+				<p>How do you rate our work?</p>
 			</div>
 			<div>
 				<input type="range" name="range">
@@ -100,7 +98,7 @@
 
 		<fieldset>
 			<legend>Your comments:</legend>
-			<textarea placeholder="Comments" id="comment"  rows="4" cols="50" name="comment"></textarea>
+			<textarea placeholder="Comments" id="comment"  rows="4" cols="50" name="comment" maxlength="160"></textarea>
 		</fieldset>
 
 
